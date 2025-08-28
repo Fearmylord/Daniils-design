@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to right, black 0%, black 50%, white 50%, white 100%);
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    
+}
+.header-left {
+    margin-left: 2%;
+}
+.header-right {
+    margin-right: 2%;
+    padding-right: 2%;
+}
+img {
+  display: flex-start;
+  align-items: center;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+}
+p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: black;
+}
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+
+
+.circle{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
